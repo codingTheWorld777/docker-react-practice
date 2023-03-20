@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Change file to test travis-ci
+          Learn more
         </a>
       </header>
     </div>
