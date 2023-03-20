@@ -9,4 +9,5 @@ RUN npm run build
 
 # /app/front/build <-- all stuffs we care about
 FROM nginx
+EXPOSE 80
 COPY --from=builder /app/front/build /usr/share/nginx/html
